@@ -13,15 +13,18 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
     /* position: fixed; */
 }
 .navi1{
     display: flex;
     align-items: center;
     color: white;
+    width: 50%;
 }
 .navi2{
     display: flex;
+    width: 50%;
     
 
 }
@@ -38,6 +41,7 @@
 .slide{
     background-color: white;
     padding-top: 50px;
+    transition: 2s;
 }
 
 /* start of slide1 */
@@ -47,7 +51,7 @@
 .p1{
     text-align: center;
 }
-.form1{
+#userInfo{
     text-align: center;
 }
 .slide button{
@@ -59,14 +63,20 @@
    
 }
 /* start of slide2 */
+.slide2{
+    display: none;
+    transition: 2s;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
 .slide2 h2{
     text-align: center;
 }
 
 /* start of slide3 */
 .slide3{
-    /* box-sizing: border-box; */
-    border: blue, 5px, solid;
+   display: none;
 }
 .slide3 h2{
     text-align: center;
@@ -79,7 +89,7 @@
     display: flex;
     align-content: center;
     background-color: blue;
-    width: 80%;
+    width: 100%;
     position: fixed;
 }
 
