@@ -38,44 +38,7 @@
 
 
 /* division slide styling */
-.slide{
-    background-color: white;
-    padding-top: 50px;
-    transition: 2s;
-    display: none;
-}
 
-/* start of slide1 */
-.slide1 h1{
-    text-align: center;
-}
-.p1{
-    text-align: center;
-}
-#userInfo{
-    text-align: center;
-}
-.slide button{
-    background-color: blue;
-    color: white;
-    font-size: large;
-    border-radius: 10%;
-    padding: 5px;
-}
-/* start of slide2 */
-
-.slide2 h2{
-    text-align: center;
-}
-
-/* start of slide3 */
-
-.slide3 h2{
-    text-align: center;
-}
-.slide3 p{
-    text-align: center;
-}
 /* division footer styling */
 .end{
     display: flex;
