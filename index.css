@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* divison header styling */
+.header{
+    background-color: blue;
+    width: 100%;
+    
+}
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: fixed; */
+}
+.navi1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navi2{
+    display: flex;
+    
+
+}
+.navi2 a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: x-large;
+    color: white;
+    align-items: flex-end;
+}
+
+
+/* division slide styling */
+.slide{
+    background-color: white;
+    padding-top: 50px;
+}
+
+/* start of slide1 */
+.slide1 h1{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.form1{
+    text-align: center;
+}
+.slide button{
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border-radius: 10%;
+    padding: 5px;
+   
+}
+/* start of slide2 */
+.slide2 h2{
+    text-align: center;
+}
+
+/* start of slide3 */
+.slide3{
+    /* box-sizing: border-box; */
+    border: blue, 5px, solid;
+}
+.slide3 h2{
+    text-align: center;
+}
+.slide3 p{
+    text-align: center;
+}
+/* division footer styling */
+.end{
+    display: flex;
+    align-content: center;
+    background-color: blue;
+    width: 80%;
+    position: fixed;
+}
+
+.end .copyright{
+    margin: 10px;
+}
+
+.end .copyright p{
+    font-family: 'poppins';
+    font-size: 12px;
+}
+
+.end .socialmedia{
+    display: flex;
+    margin-top: 9px;
+    margin-left: 30%;
+}
+
+.end .socialmedia img{
+    width: 30px;
+    padding-left: 15px;
+}
+
+
+.end .myname{
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.end .myname p{
+    font-family: 'poppins';
+}
