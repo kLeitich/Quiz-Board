@@ -1,8 +1,8 @@
 var correctAnswer = {
-    q1: "100%"
-    q2: "Markup Language"
-    q3:"/* a comment */"
-    q4: "p {color: red;}"
+    q1: "100%",
+    q2: "Markup Language",
+    q3:"/* a comment */",
+    q4: "p {color: red;}",
     q5: "a {text-decoration:none;}"
 }
 
