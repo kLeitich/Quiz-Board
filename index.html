@@ -22,22 +22,21 @@
 
         </div>
     </div>
-    <div class="slide1">
-        <div class="slide1 fade">
-            <h1>Welcome to Quizboard</h1>
-            <p class="p1">
-            As per intiantive of Moringa school to ensure all high school students have an basic knowlwdge on creating websites. The questions are to test your knowledge in HTMl and CSS as per the lessons carried out in the last two weeks
-           </p>
-           <form id ="userInfo">
+    <div class="slideshow">
+       
+        <form id ="question" action="/action_page.php"></form>
+                <h1>Welcome to Quizboard</h1>
+                <p class="p1">
+               As per intiantive of Moringa school to ensure all high school students have an basic knowlwdge on creating websites. The questions are to test your knowledge in HTMl and CSS as per the lessons carried out in the last two weeks
+              </p>
+              <div class="tab">
              <p>Last Name:</p><p><input type="text" name="Lastname" id="name" required></p>
              <p>First Name:</p></p><input type="text" name="firstname" id="name"required></p>
              <p>Student ID Number:</p><p><input type="text" name="Lastname" id="name" required></p>
-             <button type="submit" onclick="plusSlides(1)">Start tests</button>
-           </form>
-        </div>
-        <div class="slide fade">
-            <h2>Questions</h2>
-            <form id="questionform">
+             <button type="submit" id="nextBtn" onclick="nextPrev(1)">Start tests</button>
+              </div>
+              <div class="tab">
+             <h2>Questions</h2>
                 1. What should be the table width, so that the width of a table adjust to the current width of the browser window?
                 <p><input type="radio" name="q1" value="640 pixels"> 640 pixels</p>
                 <p><input type="radio" name="q1" value="100%"> 100% </p>
@@ -66,16 +65,14 @@
                 <p><input type="radio" name="q5" value="a {text-decoration:none;}"> a {text-decoration:none;}</p>
                 <p><input type="radio" name="q5" value="a {text-style: no-underline;}"> a {text-style: no-underline;}</p>
                 <p><input type="radio" name="q5" value="a {text-decoration: no-underline;}"> a {text-decoration: no-underline;}</p>
-                <button type="submit" onclick="plusSlides(1)"> Submit</button>
-            </form>
+                <button type="submit" id="nextBtn" onclick="nextPrev(1)"> Submit</button>
         
-
-        </div>
-        <div class="slide fade">
-            <h2>YOUR SCORE IS:</h2>
-            <P>0</P>
-            <button type="reset" submit="plusSlides(-3)" ></button>
-        </div>
+             <div class="tab">
+              <h2>YOUR SCORE IS:</h2>
+              <P>0</P>
+              <button type="reset" id="prevBtn" onclick="nextPrev(-1)" ></button>
+              </div>
+        </form>      
     </div>
     <footer>
         <div class="end">
