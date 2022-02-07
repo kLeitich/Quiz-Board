@@ -4,8 +4,7 @@
 Created using Figma: https://www.figma.com/file/hD5NaV0YEOHzPboMB9N446/Untitled?node-id=0%3A1
 
 Website link |
-Created using github: https://www.figma.com/file/hD5NaV0YEOHzPboMB9N446/Untitled?node-id=0%3A1
-
+Created using github: https://kleitich.github.io/Quiz-Board/
 
  
 ## Table of Contents
