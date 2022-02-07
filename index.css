@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    /* position: fixed; */
+   
 }
 .navi1{
     display: flex;
@@ -36,6 +36,9 @@
     align-items: flex-end;
 }
  /* styling of buttons and questions */
+
+
+
 .grid {
     width: 50%;
     /* height: 500px; */
@@ -93,9 +96,9 @@
     background-color:  cyan;
 }
  
-#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+/* #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
     outline: 0;
-}
+} */
  
 #progress {
     color: blueviolet;
