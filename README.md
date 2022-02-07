@@ -3,7 +3,7 @@
  Design link |
 Created using Figma: https://www.figma.com/file/hD5NaV0YEOHzPboMB9N446/Untitled?node-id=0%3A1
 
-![](images/QUIZ  BOARD.fig)
+
 ## Table of Contents
   - [Project Description](#description)
   - [Technologies Used](#technologies-used)
